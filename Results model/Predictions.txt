@@ -1,0 +1,3 @@
+Total: 39 predições
+Acertos: 31
+Erros: 8

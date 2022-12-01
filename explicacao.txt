@@ -1,0 +1,5 @@
+Input = tamanho dos arrays de input (imagens 500x500 RGB)
+Normalization/BatchNormalization = reduzir diferença entre numeros e deixá-los em range de 0 a 1
+Conv2D = convolução usando 90 filtros, tamanho do kernel 10, padding same para numero de outputs ser o mesmo de inputs, função de ativação relu
+GlobalMaxPooling2D = faz pooling selecionando o valor máximo dentro da área
+Dense = neurônios de uma camada recebe inputs de todos os neuronios da camada anterior, possui 17 outputs (os tipos de flores), ativação softmax para permitir mais de 2 saídas
