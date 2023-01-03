@@ -13,7 +13,7 @@ model = tf.keras.models.load_model('./model')
 
 for path in os.listdir('./testes'):
   image = cv2.imread('./testes/' + path)[...,::-1]
-  image = cv2.resize(image, (500,500))
+  image = cv2.resize(image, (200,200))
   image = np.array(image)
   image = np.expand_dims(image, axis=0)
   predict = model.predict(image)
